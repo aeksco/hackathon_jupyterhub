@@ -1,5 +1,5 @@
 # Prompt
-echo \n\nCREATING USER: $1\n\n
+echo CREATING USER: $1
 
 # adduser - creates a new Unix user account
 adduser --disabled-password --gecos "" $1
@@ -24,4 +24,4 @@ echo HELLO > /home/$1/notebooks/share/INSTRUCTIONS.md
 # Recursively sets the owner of ~/
 chown -R $1 /home/$1/
 
-echo \n\nDONE CREATING USER: $1\n\n
+echo DONE CREATING USER: $1

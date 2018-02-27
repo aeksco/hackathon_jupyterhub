@@ -7,5 +7,5 @@ done <users.txt
 mkdir /home/share
 mkdir /home/share/datasets
 mkdir /home/share/training_sets
-mkdir /home/share/example_notebooks
+mkdir /home/share/examples
 touch /home/share/share.md
