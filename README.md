@@ -46,6 +46,7 @@ Includes example Jupyter notebook to push data to MongoDB, and a [mongo-express]
 
   `docker-compose run --user="root" hackathon_jupyterhub pip install pandas`
 
+- Installation instructions for Python 2.7 Jupyter kernel were found [here](https://github.com/ozancaglayan/jupyterhub-installation).
 
 ## Optional NGINX Configuration
 - Run the following to setup an NGINX reverse-proxy to the Jupyter Notebook server

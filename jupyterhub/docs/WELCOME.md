@@ -13,8 +13,8 @@ This [JupyterHub](https://github.com/jupyterhub) server comes preloaded with lot
 **Kernels**
 - Python 2.7
 - Python 3.5
+- R
 - Bash
-- R (TODO)
 
 **Libraries**
 - [scipy](https://www.scipy.org/)
