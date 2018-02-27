@@ -31,23 +31,23 @@ RUN pip install sudospawner
 # Install Python 2.7 Jupyter Kernel
 
 # Create new Python 2.7 environment
-RUN conda create --name py27 python=2.7
-RUN conda install -n py27 anaconda
+# RUN conda create --name py27 python=2.7
+# RUN conda install -n py27 anaconda
 
 # Activate Python 2.7 environment
-RUN source activate py27
+# RUN source activate py27
 
 # Install bash kernel
-RUN pip install bash_kernel
-RUN python -m bash_kernel.install
+# RUN pip install bash_kernel
+# RUN python -m bash_kernel.install
 
 # TODO - install Python 2.7 dependencies...
 
 # Install Python 2.7 Jupyter kernel
-RUN ipython kernel install
+# RUN ipython kernel install
 
 # Deactivates Python 2.7 environment (jumps back to Python 3.5.5)
-RUN source deactivate
+# RUN source deactivate
 
 #####
 # System user configuration
