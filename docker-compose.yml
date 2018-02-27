@@ -1,0 +1,10 @@
+# JupyterHub
+version: '3.1'
+
+# TODO - mount data volume with this container?
+services:
+  jupyterhub:
+    build: ./jupyterhub
+    container_name: hackathon_jupyterhub
+    ports:
+      - 8888:8000
