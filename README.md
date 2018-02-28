@@ -68,3 +68,8 @@ Includes example Jupyter notebook to push data to MongoDB, and a [mongo-express]
     sudo systemctl stop nginx
     sudo systemctl restart nginx
     ```
+
+## Misc. Notes
+- Use [RSYNC](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps) to sync files into shared directory?
+
+- TODO - Preload examples, traning sets, datasets, images.
