@@ -4,6 +4,9 @@ server {
   server_name data.capitaldistrict.io;
   charset utf-8;
 
+  # Max body size of 1GB
+  client_max_body_size 1000M;
+
   # Jupyterhub running at data.capitaldistrict.io
   location / {
     proxy_pass http://localhost:8888;
