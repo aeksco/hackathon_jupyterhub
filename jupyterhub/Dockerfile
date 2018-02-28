@@ -9,7 +9,8 @@ COPY jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py
 
 # Copies provisioning scripts
 COPY internals /srv/jupyterhub/internals
+COPY docs /srv/jupyterhub/internals/docs
 
-# TODO - run provision scripts here
-# TODO - need to set WORKDIR before command?
-# RUN sh /srv/jupyterhub/provision.sh
+# Runs provision scripts
+# WORKDIR /srv/jupyterhub/internals
+# RUN sh provision.sh
