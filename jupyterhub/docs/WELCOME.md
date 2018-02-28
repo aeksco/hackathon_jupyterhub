@@ -10,6 +10,9 @@ Part of the [International Open Data Day](http://opendataday.org/)
 
 This [JupyterHub](https://github.com/jupyterhub) server comes preloaded with lots of great stuff.
 
+<!-- TODO - add a link to this repository -->
+<!-- https://github.com/aeksco/hackathon_jupyterhub -->
+
 **Kernels**
 - Python 2.7
 - Python 3.5
@@ -34,6 +37,8 @@ This [JupyterHub](https://github.com/jupyterhub) server comes preloaded with lot
 - [Beautiful Soup 4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [graphviz](https://www.graphviz.org/)
 - [Natural Language Toolkit](https://www.nltk.org/)
+- [Newspaper3k](http://newspaper.readthedocs.io/en/latest/)
+- [Pillow](https://pillow.readthedocs.io/en/latest/)
 
 **Datasets**
 TODO - make a list of all the kernels and libraries installed
