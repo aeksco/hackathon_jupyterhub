@@ -47,6 +47,7 @@ pip install sympy
 pip install tqdm
 pip install vincent
 pip install xlrd
+pip install sodapy
 
 # Caffe & Tensorflow
 conda install --yes caffe

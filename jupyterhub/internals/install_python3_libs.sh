@@ -10,6 +10,7 @@ pip install bs4
 pip install graphviz
 pip install nltk
 pip install Pillow
+pip install sodapy
 
 # Newspaper 3k
 apt-get install libxml2-dev libxslt-dev libjpeg-dev zlib1g-dev libpng12-dev
