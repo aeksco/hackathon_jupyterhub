@@ -13,6 +13,12 @@ This [JupyterHub](https://github.com/jupyterhub) server comes preloaded with lot
 <!-- TODO - add a link to this repository -->
 <!-- https://github.com/aeksco/hackathon_jupyterhub -->
 
+
+**Data Sources**
+- [data.ny.gov](https://data.ny.gov/browse)
+- [data.gov](https://catalog.data.gov/dataset)
+- [data.medicare.gov](https://data.medicare.gov/data)
+
 **Kernels**
 - Python 2.7
 - Python 3.5
