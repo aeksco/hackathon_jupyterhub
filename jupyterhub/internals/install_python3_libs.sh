@@ -13,7 +13,7 @@ pip install Pillow
 pip install sodapy
 
 # Newspaper 3k
-apt-get install libxml2-dev libxslt-dev libjpeg-dev zlib1g-dev libpng12-dev
+apt-get install -Y libxml2-dev libxslt-dev libjpeg-dev zlib1g-dev libpng12-dev
 pip install newspaper3k
 
 # Conda installations...

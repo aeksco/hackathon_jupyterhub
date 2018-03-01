@@ -2,7 +2,7 @@ echo "INSTALLING PYTHON 2.7 KERNEL"
 
 # Creates Python 2.7 Conda environment
 conda create --name py27 python=2.7 -y
-conda install -n py27 anaconda -y
+conda install --yes -n py27 anaconda
 
 # Activate Python 2.7 environment
 source activate py27

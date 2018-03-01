@@ -25,4 +25,7 @@ cp ./docs/WELCOME.md /home/$1/notebooks
 # Recursively sets the owner of ~/
 chown -R $1 /home/$1/
 
+# Add to sudo group
+# usermod -aG sudo $1
+
 echo DONE CREATING USER: $1
