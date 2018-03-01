@@ -2,7 +2,7 @@
 echo CREATING USER: $1
 
 # adduser - creates a new Unix user account
-adduser --disabled-password --gecos "" $1
+adduser --disabled-password --force-badname --gecos "" $1
 
 # Creates ~/notebooks
 mkdir /home/$1/notebooks
