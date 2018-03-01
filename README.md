@@ -28,9 +28,11 @@ Includes example Jupyter notebook to push data to MongoDB, and a [mongo-express]
       - `c.Authenticator.admin_users = {'torvalds'}`
       - `c.JupyterHub.base_url = '/jupyterhub'`
 
-4. Modifiy 'jupyterhub/users.txt':
+4. Create the `jupyterhub/internals/users.txt` file:
 
-    This file should contain the GitHub usernames of all users who will be using the system. Please ensure that there is no trailing whitespace or newlines in this file!
+    Copy the `jupyterhub/internals/users.example.txt` file to `jupyterhub/internals/users.txt`
+
+    This file should contain the GitHub usernames of all users who will be using the system. Every user defined in `jupyterhub_config.py` must be listed here for the server to work properly. Please ensure that there is no trailing whitespace or newlines in this file!
 
 5. Start the docker containers:
 
