@@ -13,4 +13,4 @@ sh install_python3_libs.sh
 sh install_r_kernel.sh
 
 # Builds share & examples directories
-sh build_examples.sh
+# sh build_examples.sh
