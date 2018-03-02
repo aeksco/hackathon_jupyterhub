@@ -1,4 +1,4 @@
-# Prompt
+# Start Prompt
 echo CREATING USER: $1
 
 # adduser - creates a new Unix user account
@@ -25,7 +25,8 @@ cp ./docs/WELCOME.md /home/$1/notebooks
 # Recursively sets the owner of ~/
 chown -R $1 /home/$1/
 
-# Add to sudo group
-# usermod -aG sudo $1
+# Bash color scheme
+echo PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] ' >> /home/$p1/.bashrc
 
+# End Prompt
 echo DONE CREATING USER: $1
