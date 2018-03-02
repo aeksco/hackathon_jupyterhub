@@ -4,15 +4,13 @@ Welcome to Albany / Troy Open Data Day 2018
 
 Part of the [International Open Data Day](http://opendataday.org/)
 
+A GitHub repository containing this notebook server and configuration files is available [here](https://github.com/aeksco/hackathon_jupyterhub).
+
 <hr/>
 
 #### Getting Started
 
 This [JupyterHub](https://github.com/jupyterhub) server comes preloaded with lots of great stuff.
-
-<!-- TODO - add a link to this repository -->
-<!-- https://github.com/aeksco/hackathon_jupyterhub -->
-
 
 **Data Sources**
 - [data.ny.gov](https://data.ny.gov/browse)
@@ -45,13 +43,6 @@ This [JupyterHub](https://github.com/jupyterhub) server comes preloaded with lot
 - [Natural Language Toolkit](https://www.nltk.org/)
 - [Newspaper3k](http://newspaper.readthedocs.io/en/latest/)
 - [Pillow](https://pillow.readthedocs.io/en/latest/)
-
-**Datasets**
-TODO - make a list of all the kernels and libraries installed
-
-TODO - make a list of all the datasets and examples available on this server
-
-- [Create a GitHub account](https://github.com/join?source=header-home)
 
 <hr/>
 
