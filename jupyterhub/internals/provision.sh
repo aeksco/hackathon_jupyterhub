@@ -5,7 +5,7 @@ done <users.txt
 
 # Update / Install libraries
 apt-get update
-apt-get -Y install unzip git nano
+apt-get -Y install unzip zip git nano sudo
 
 # Install Python & R kernels and libraries
 sh install_python2_libs.sh
