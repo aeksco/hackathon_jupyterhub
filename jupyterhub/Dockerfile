@@ -12,5 +12,4 @@ COPY internals /srv/jupyterhub/internals
 COPY docs /srv/jupyterhub/internals/docs
 
 # Runs provision scripts
-# WORKDIR /srv/jupyterhub/internals
-# RUN sh provision.sh
+RUN sh /srv/jupyterhub/internals/provision.sh

@@ -8,9 +8,9 @@ apt-get update
 apt-get -Y install unzip zip git nano sudo curl
 
 # Install Python & R kernels and libraries
-sh install_python2_libs.sh
 sh install_python3_libs.sh
-sh install_r_kernel.sh
+# sh install_python2_libs.sh
+# sh install_r_kernel.sh
 
 # Builds share & examples directories
 # sh build_examples.sh
