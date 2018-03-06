@@ -1,9 +1,3 @@
-# Creates shared directories
-# mkdir /home/share
-# mkdir /home/share/datasets
-# mkdir /home/share/training_sets
-# mkdir /home/share/examples
-# touch /home/share/share.md
 
 # Awesome Tensorflow
 # https://github.com/jtoy/awesome-tensorflow
@@ -24,10 +18,13 @@
 # https://dev.socrata.com/publishers/
 
 # # # #
-# KEEP
+# GOOD STUFF
 
-# Add to every user's bashrc
-# PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
+# Creates shared directories
+# mkdir /home/share
+
+# Gallery of Interesting Jupyter Notebooks
+# https://github.com/jupyter/jupyter/wiki/a-gallery-of-interesting-jupyter-notebooks#whimsical-notebooks
 
 # Tensor Flow Examples
 # git clone https://github.com/aymericdamien/TensorFlow-Examples
