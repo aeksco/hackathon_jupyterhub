@@ -22,7 +22,12 @@ c.Spawner.notebook_dir = '~/notebooks'
 c.JupyterHub.base_url = '/jupyterhub'
 
 # # # # #
+# JupyterLab settings
 
+c.Spawner.default_url = '/lab'
+c.Spawner.cmd = ['jupyter-labhub']
+
+# # # # #
 # Debug Settings
 
 # Set the log level by value or name.
