@@ -5,11 +5,11 @@ RUN pip install oauthenticator
 RUN pip install sudospawner
 
 # Copies jupyterhub_config.py file
-COPY jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py
+# COPY jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py
 
 # Copies provisioning scripts
-COPY internals /srv/jupyterhub/internals
-COPY docs /srv/jupyterhub/internals/docs
+# COPY internals /srv/jupyterhub/internals
+# COPY docs /srv/jupyterhub/internals/docs
 
 # Runs provision scripts
-RUN sh /srv/jupyterhub/internals/provision.sh
+# RUN sh /srv/jupyterhub/internals/provision.sh

@@ -6,5 +6,9 @@ services:
   jupyterhub:
     build: ./jupyterhub
     container_name: hackathon_jupyterhub
+    privileged: true
     ports:
       - 8888:8000
+    volumes:
+      - /data/:/data/
+      - /var/run/docker.sock:/var/run/docker.sock
